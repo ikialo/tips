@@ -6,7 +6,7 @@ from firebase_admin import db
 
 cred_obj = firebase_admin.credentials.Certificate('serviceAcc.json')
 default_app = firebase_admin.initialize_app(cred_obj, {
-	'databaseURL':'https://firecorn-default-rtdb.asia-southeast1.firebasedatabase.app/'
+	'databaseURL':''
 	})
 
 
