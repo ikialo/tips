@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+{% for x, y in games.items()%}
+<div>{{x}}</div>
+{{y.items()['Team1']}}
+{% endfor %}
+
+{% endblock %}
